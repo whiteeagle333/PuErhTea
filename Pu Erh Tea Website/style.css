@@ -1,0 +1,244 @@
+/*customization of banner 
+his code is a CSS class selector. It selects
+ all HTML elements that have a class attribute with a value of "image-container" 
+ and applies the defined styles to them. */
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+/*
+code is a class, as it starts with a dot (.) and can be used to apply the same set of styles 
+to multiple HTML elements by adding the class attribute with the class name "banner-image" to those elements. */
+.banner-image {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  max-width: 100%;
+}
+/*page traditional banner */
+.image-container2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  flex-direction: column;
+}
+
+.banner-image2 {
+  border-radius: 05px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin: 05px;
+  max-width: 2800px;
+}
+
+/* Header styles, code targets an HTML element, specifically the <header> element on all 3 pages.*/
+header {
+  background-color: #560606f9;
+  outline-style: inherit;
+  padding: 10px;
+  border-color: #f15d5df9;
+}
+/*  h1 and h2 codes are a selectors for the h1 and h2 HTML element, which sets its font family,
+ font weight, text alignment, font size, line height, and color.     */
+h1 {
+  font-family: Courier New, monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+h2 {
+  font-family: Courier New, monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/*borderlines This code refers to an element, specifically the horizontal rule (<hr>) element costumization.*/
+hr {
+  border: none;
+  border-top: 3px solid rgba(95, 14, 14, 0.375);
+  margin: 20px auto;
+  width: 50%;
+}
+/*  CSS class It applies the following styles to any HTML 
+display: flex: Specifies that the container is a flex container and enables a flex context for all its direct children.
+flex-wrap: wrap: Specifies that the flex items should wrap if they exceed the container's width.
+justify-content: center: Centers the flex items along the main axis.
+gap: 60px: Specifies the gap between the flex items.
+max-width: 1800px: Specifies the maximum width of the container.
+margin: 0 auto: Centers the container horizontally by setting its left and right margins to auto.
+Overall, this class is used to create a flexible container that centers its items with a gap of
+ 60 pixels between them and has a maximum width of 1800 pixels.
+ this one was designed for pg about and home for images to line in a row and have perfect spaces between them*/
+.image-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+/* This is a CSS class. It styles an image element with a border radius of 10px and a box shadow with a 2px 
+horizontal and vertical offset and 10px blur radius. It also adds a bottom margin of 60px 
+and sets the width of the element to be 30% of its parent element minus 60px. */
+.image3 {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 60px;
+  width: calc(30% - 60px);
+}
+/* image customization  page , flex to  adap to diffrent setting in media and wrap as space that can adjust*/
+.image-container4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.image4 {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 60px;
+  width: calc(30% - 60px);
+}
+
+/* image customization  page about, flex to  adap to diffrent setting in media and wrap as space that can adjust*/
+.image-container-page3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.image-pg3 {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 80px;
+  width: calc(25% - 20px);
+}
+/*  This code is an element selector that targets all table elements in the HTML document.
+used on pg 3 about on the table 
+It sets the CSS properties border-collapse to collapse and width to 100%.
+border-collapse: collapse removes the space between table cells, making the table appear to have a single border, 
+while width: 100% sets the width of the table to 100% of the available space. */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  padding: 15px 20px; /* set custom padding for the table headers */
+  background-color: #560606f9; /* set custom color for the table headers */
+}
+/* td element. It sets the border width, style, and color of the cell border
+This will apply to all td elements within the HTML file that reference this CSS file or style tag */
+td {
+  border: 2px solid black;
+  padding: 8px;
+}
+/* This code is targeting the th elements that are direct children of the thead element.
+ It sets the text-align property of those th elements to left,
+ which left-aligns the text content within those cells. */
+thead th {
+  text-align: left;
+}
+
+/* class selector in CSS.
+ It selects all elements with the class attribute set to "left-align"
+  and applies the CSS properties to them. */
+.left-align {
+  text-align: left;
+}
+
+/* CSS style applied to the HTML element "ol", which stands for "ordered list". 
+The CSS code sets the left padding of the ordered list to 20 pixels, 
+creating an indentation for the list items. */
+ol {
+  padding-left: 20px;
+}
+
+/* This code is targeting the <form> element and setting some styling rules. Specifically,
+ it sets the width of the form to 400 pixels, and adds margins of 50 pixels to the left and top of the form. */
+/* this was used in about form page 3 code is targeting the form element and setting its width to 400 pixels,
+ margin on the left side to 50 pixels and margin from the top to 50 pixels. 
+ This will affect all the forms in the HTML document. */
+form {
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+/* This is a CSS selector for the <label> element. It sets the display property to "block",
+ which means the label will start on a new line and take up the full width available in its container.
+ where name and email part in the aboput page3 */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: px;
+}
+/* This is a CSS code block that targets two specific types of input elements: 
+text and email. It applies a series of styling rules to these elements, including setting their width to 100%, 
+adding padding, setting a dashed border, adding a small border radius, and applying a box shadow.
+ These styling rules will make the text and email input fields look consistent and visually appealing. */
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: dashed;
+  border-radius: 2px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.07);
+}
+/* This is a CSS code for a button element with the attribute type="submit".
+ It sets various styles for the button, such as the float to the right, top and bottom margins, 
+ block display, width, padding, font size, background color, text color, border, border radius, and cursor.
+These styles are intended to give the button a specific look and behavior when it is clicked, 
+such as a rounded shape, a red background color, and white text, among other things.  */
+
+button[type="submit"] {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  width: 25%;
+  padding: 10px;
+  font-size: 1em;
+  background-color: #560606f9;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+/*benefits list custom and backdrop page 2, This is a class and it styles the elements that have the class "my-benefits". 
+It sets the font color to a light gray (#b5b5b5), font size to 30px, and font weight to bold.*/
+.my-benefits {
+  color: #b5b5b5;
+  font-size: 30px;
+  font-weight: bold;
+}
+/*This is a class selector in CSS, denoted by the dot before the class name "my-list". 
+It selects HTML elements with the class "my-list" and applies the specified styles to them.  */
+.my-list {
+  background-color: #1d1c1c;
+  padding: 40px;
+}
+/* Footer styles,This is a code element and it defines the styling for the footer element in an HTML document. 
+The properties specified include a background color of #030303, 
+padding of 90 pixels on all sides, and center alignment of text within the footer. */
+
+footer {
+  background-color: #030303;
+  padding: 90px;
+  text-align: center;
+}
